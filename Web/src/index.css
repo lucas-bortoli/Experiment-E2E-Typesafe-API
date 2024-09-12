@@ -1,0 +1,33 @@
+:root {
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: blue;
+  font-weight: 500;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+a:active {
+  color: red;
+}
+
+body {
+  display: flex;
+  place-items: center;
+  margin: 0 auto;
+  width: 100lvw;
+  max-width: 720px;
+  height: 100lvh;
+  overflow: hidden;
+}
